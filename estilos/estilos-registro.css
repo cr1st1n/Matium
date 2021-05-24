@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "tipografia1";
+    src: url("../font/FJALLAONE-REGULAR.TTF");
+}
+
+.content_img {
+    height: 300px;
+    position: relative;
+}
+
+img {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    height: 100%;
+    font-family: titulos;
+    background-color: white;
+}
+
+
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: black;
+    padding-left: 30px;
+}
+
+
+input {
+    background-color: #A4A4A4;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #020202;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-family: "abel";
+}
+
+
+textarea {
+    background-color: #A4A4A4;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #020202;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p {
+    color: #010101;
+    font-family: "tipografia1";
+}
+
+
+span {
+    color: #157F2E;
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: #FFFBFB;
+}
+
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #FFF9F9;
+    font-family: "tipografia1";
+}
+
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #FFF9F9;
+    font-family: "tipografia1";
+}
+
+
+p {
+    font-size: 14px;
+    color: #FCF6F6;
+    font-family: "tipografia1";
+}
+
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}

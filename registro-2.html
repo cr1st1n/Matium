@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos-registro.css">
+</head>
+
+<body>
+    <div class="content_img">
+        <img src="img/Logotipo-MATIUM.png" href="inicio-1.html">
+    </div>
+
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h1>Formulario de registro</h1>
+
+
+            <form name="formulario" action="submeter-formulario.php" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Registrarme</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
